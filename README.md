@@ -43,7 +43,7 @@ API-ready design for easy integration into existing Human Resource systems
 
 Modular structure for scalability and experimentation
 
-TECH STACK
+**TECH STACK**
 | Layer | Technology Used |
 |-------|------------------|
 | **Frontend** | Streamlit |
@@ -51,5 +51,6 @@ TECH STACK
 | **AI/Embedding Models** | SentenceTransformer, Hugging Face Transformers |
 | **Data Handling** | Pandas, NumPy |
 | **Similarity Computation** | Cosine similarity via `sentence-transformers` utilities |
+
 
 
