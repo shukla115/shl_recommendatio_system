@@ -50,12 +50,12 @@ catalog_df = load_catalog()
 # ----------------------------
 @st.cache_resource
 def load_sentence_model():
-    return SentenceTransformer(r"C:\Users\sdshu\models\all-MiniLM-L6-v2")
+    return SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
 @st.cache_resource
 def load_huggingface_model():
-    tokenizer = AutoTokenizer.from_pretrained(r"C:\Users\sdshu\models\all-MiniLM-L6-v2")
-    model = AutoModel.from_pretrained(r"C:\Users\sdshu\models\all-MiniLM-L6-v2")
+    tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/all-MiniLM-L6-v2")
+    model = AutoModel.from_pretrained("sentence-transformers/all-MiniLM-L6-v2")
     return tokenizer, model
 
 st_model = load_sentence_model()
@@ -189,3 +189,4 @@ if st.button("🚀 Recommend Assessments"):
 # ----------------------------
 st.markdown("---")
 st.caption("SHL GenAI Internship Assignment | Multi-Model Recommendation System (SentenceTransformer, Gemini, Hugging Face)")
+
