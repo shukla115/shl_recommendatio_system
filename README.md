@@ -1,4 +1,4 @@
-SHL Recommendation System
+SHL Recommendation System - https://shlrecommendatiosystemks.streamlit.app/
 
 **PROJECT OVERVIEW**
 
@@ -51,6 +51,10 @@ Modular structure for scalability and experimentation
 | **AI/Embedding Models** | SentenceTransformer, Hugging Face Transformers |
 | **Data Handling** | Pandas, NumPy |
 | **Similarity Computation** | Cosine similarity via `sentence-transformers` utilities |
+
+<img width="1901" height="976" alt="Screenshot 2025-11-12 015413" src="https://github.com/user-attachments/assets/9c2bfa5a-186d-4366-885d-9d20f4cc5ff1" />
+
+
 
 
 
